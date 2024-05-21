@@ -1,5 +1,4 @@
 {
-  "$schema": "https://facets-cloud.github.io/facets-schemas/schemas/redis/redis.schema.json",
   "flavor": "azure_cache",
   "metadata": {
     "tags": {
@@ -7,7 +6,7 @@
     }
   },
   "kind": "redis",
-  "disabled": true,
+  "disabled": false,
   "version": "0.1",
   "spec": {
     "authenticated": true,
@@ -23,5 +22,6 @@
         "instance": 1
       }
     }
-  }
+  },
+  "provided": true
 }
