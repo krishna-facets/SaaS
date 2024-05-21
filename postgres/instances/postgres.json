@@ -1,9 +1,8 @@
 {
-  "$schema": "https://facets-cloud.github.io/facets-schemas/schemas/postgres/postgres.schema.json",
   "flavor": "k8s",
   "metadata": {},
   "kind": "postgres",
-  "disabled": true,
+  "disabled": false,
   "version": 0.1,
   "spec": {
     "postgres_version": "15.3.0",
@@ -24,5 +23,6 @@
         "instance_count": 1
       }
     }
-  }
+  },
+  "provided": false
 }
