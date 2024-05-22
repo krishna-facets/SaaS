@@ -1,5 +1,14 @@
 {
-"clusterVariablesMeta":{
-}
-
+  "clusterVariablesMeta": {
+    "krishna_1": {
+      "secret": true,
+      "value": "jk",
+      "global": true
+    },
+    "Krishna_2": {
+      "secret": false,
+      "value": "aa",
+      "global": false
+    }
+  }
 }
