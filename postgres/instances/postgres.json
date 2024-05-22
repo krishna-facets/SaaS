@@ -20,7 +20,7 @@
         "memory": "1Gi",
         "cpu_limit": 1,
         "memory_limit": "1Gi",
-        "volume": "5G"
+        "volume": "2G"
       }
     },
     "env": {}
