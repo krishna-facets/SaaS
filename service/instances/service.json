@@ -1,5 +1,4 @@
 {
-  "$schema": "https://facets-cloud.github.io/facets-schemas/schemas/service/service.schema.json",
   "flavor": "k8s",
   "metadata": {
     "labels": {
@@ -7,7 +6,7 @@
     }
   },
   "kind": "service",
-  "disabled": true,
+  "disabled": false,
   "version": "0.1",
   "spec": {
     "enable_host_anti_affinity": false,
@@ -59,5 +58,6 @@
     "env": {
       "LOG_LEVEL": "INFO"
     }
-  }
+  },
+  "provided": false
 }
